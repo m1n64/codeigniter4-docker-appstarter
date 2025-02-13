@@ -30,12 +30,12 @@ Then, open [localhost:8080](http://localhost:8080) and make magic!
 ### How to use composer or CLI
 CLI Spark:
 ```bash
-docker compose exec -it codeigniter_app php spark db:table
+docker exec -it codeigniter_app php spark db:table
 ```
 
 Composer:
 ```bash
-docker compose exec -it codeigniter_app composer -v
+docker exec -it codeigniter_app composer -v
 ```
 ***
 
